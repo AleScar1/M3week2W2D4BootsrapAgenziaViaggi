@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>M3week2W2D4BootsrapAgenziaViaggi</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <!-- Logo e Nome del sito -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="img/logo/logoBussola.png" alt="Logo" class="me-2" style="width: 40px; height: 40px;">
+          <span>Travel to Live</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Jumbotron Section (sostituisce la Hero Section) -->
+    <div class="jumbotron text-center bg-light py-5">
+      <div class="container">
+        <h1 class="display-4">Travel to Live</h1>
+        <p class="lead">"Explore. Discover. Live your dream journeys with us."</p>
+        <a href="#destinations" class="btn btn-primary btn-lg">Discover Destinations</a>
+      </div>
+    </div>
+
+    <!-- Sezione Offerta della Settimana -->
+<div class="container mt-5">
+    <button class="btn btn-primary" onclick="toggleSection('Offerta-della-Settimana')">Offerta della Settimana</button>
+    <div id="Offerta-della-Settimana" class="mt-3">
+    <h2 class="text-center mb-4">Offerta della Settimana</h2>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="img/offertaDellaSettimana/parigi.jpeg" class="card-img-top" alt="Destinazione 1">
+          <div class="card-body">
+            <h5 class="card-title">Parigi</h5>
+            <p class="card-text">Scopri la magia della città dell'amore con offerte imperdibili!</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="img/offertaDellaSettimana/maldivas.jpeg" class="card-img-top" alt="Destinazione 2">
+          <div class="card-body">
+            <h5 class="card-title">Maldivas</h5>
+            <p class="card-text">Rilassati su spiagge paradisiache con acque cristalline.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="img/offertaDellaSettimana/NewYork.jpeg" class="card-img-top" alt="Destinazione 3">
+          <div class="card-body">
+            <h5 class="card-title">New York</h5>
+            <p class="card-text">Vivi l'energia della Grande Mela, tra luci e grattacieli.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="img/offertaDellaSettimana/Tokyo.jpeg" class="card-img-top" alt="Destinazione 4">
+          <div class="card-body">
+            <h5 class="card-title">Tokyo</h5>
+            <p class="card-text">Immergiti nella cultura unica del Giappone moderno e tradizionale.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sezione Welcome Summer -->
+<div class="container mt-5">
+    <button class="btn btn-primary" onclick="toggleSection('welcome-summer')">Welcome Summer</button>
+    <div id="welcome-summer" class="mt-3">
+    <h2 class="text-center mb-4">Welcome Summer</h2>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-6 col-md-4 col-lg-2 mb-4">
+        <div class="card">
+          <img src="img/WelcomeSummer/ibiza.jpeg" class="card-img-top" alt="Destinazione 1">
+          <div class="card-body">
+            <h6 class="card-title">Ibiza</h6>
+            <p class="card-text">Divertimento e spiagge da sogno.</p>
+            <a href="#" class="btn btn-primary btn-sm">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-6 col-md-4 col-lg-2 mb-4">
+        <div class="card">
+          <img src="img/WelcomeSummer/sanTorini.jpeg" class="card-img-top" alt="Destinazione 2">
+          <div class="card-body">
+            <h6 class="card-title">Santorini</h6>
+            <p class="card-text">tramonti spettacolari.</p>
+            <a href="#" class="btn btn-primary btn-sm">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-6 col-md-4 col-lg-2 mb-4">
+        <div class="card">
+          <img src="img/WelcomeSummer/bali.jpeg" class="card-img-top" alt="Destinazione 3">
+          <div class="card-body">
+            <h6 class="card-title">Bali</h6>
+            <p class="card-text">Esotismo e natura incontaminata.</p>
+            <a href="#" class="btn btn-primary btn-sm">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-6 col-md-4 col-lg-2 mb-4">
+        <div class="card">
+          <img src="img/WelcomeSummer/barcellomna.jpeg" class="card-img-top" alt="Destinazione 4">
+          <div class="card-body">
+            <h6 class="card-title">Barcellona</h6>
+            <p class="card-text">Cultura, spiagge e movida.</p>
+            <a href="#" class="btn btn-primary btn-sm">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="col-6 col-md-4 col-lg-2 mb-4">
+        <div class="card">
+          <img src="img/WelcomeSummer/capri.jpeg" class="card-img-top" alt="Destinazione 5">
+          <div class="card-body">
+            <h6 class="card-title">Capri</h6>
+            <p class="card-text">Eleganza e acque cristalline.</p>
+            <a href="#" class="btn btn-primary btn-sm">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="col-6 col-md-4 col-lg-2 mb-4">
+        <div class="card">
+          <img src="img/WelcomeSummer/dubai.jpeg" class="card-img-top" alt="Destinazione 6">
+          <div class="card-body">
+            <h6 class="card-title">Dubai</h6>
+            <p class="card-text">Lusso e modernità nel deserto.</p>
+            <a href="#" class="btn btn-primary btn-sm">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Sezione Offerta del Giorno -->
+<div class="container mt-5 offerta-del-giorno">
+    <button class="btn btn-primary" onclick="toggleSection('offerta-del-giorno')">Offerta del Giorno</button>
+    <div id="offerta-del-giorno" class="mt-3">
+    <h2 class="text-center mb-4">Offerta del Giorno</h2>
+    
+    <div class="row align-items-center">
+      <!-- Immagine - 66% -->
+      <div class="col-lg-8">
+        <img src="img/offertaDelGiorno/offertaDelGiorno.jpg" class="img-fluid rounded" alt="Offerta del Giorno">
+      </div>
+      <!-- Dettagli - 33% -->
+      <div class="col-lg-4">
+        <h3 class="mb-3">Seychelles</h3>
+        <p><strong>Date:</strong> 15-22 Giugno 2025</p>
+        <p><strong>Prezzo:</strong> €1.799 a persona</p>
+        <p>
+            Le Seychelles sono un arcipelago di 115 isole che si trova nell’Oceano Indiano. Qui ci sono numerose spiagge, una vegetazione lussureggiante, barriere coralline, riserve naturali e animali rari, come la tartaruga gigante di Aldabra.
+        </p>
+        <a href="#" class="btn btn-primary">Prenota Ora</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Sezione Last Minute -->
+ <div class="container mt-5">
+    <button class="btn btn-primary" onclick="toggleSection('last-minute')">Last Minute</button>
+    <div id="last-minute" class="mt-3">
+        <h2 class="text-center mb-4">last-minute</h2>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="img/LastMinute/caraibi.jpeg" class="card-img-top" alt="Destinazione 1">
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="img/LastMinute/nazare.jpeg" class="card-img-top" alt="Destinazione 2">
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="img/LastMinute/nnorvegia.jpeg" class="card-img-top" alt="Destinazione 3">
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="img/LastMinute/tenerife.jpeg" class="card-img-top" alt="Destinazione 4">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+ <!-- Sezione Testimonial ----------------------------------------------------------------------------------------------------------------------->
+ <div class="container mt-5">
+    <button class="btn btn-primary" onclick="toggleSection('testimonial')">Sezione Testimonial</button>
+    <div id="testimonial" class="mt-3">
+        <h2 class="text-center mb-4">testimonial</h2>
+    <div class="row">
+      <!-- Testimonial 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body">
+            <p class="card-text">
+              "Un viaggio indimenticabile! L'organizzazione è stata impeccabile, e la destinazione è stata ancora meglio di quanto ci aspettassimo. Grazie Travel to Live!"
+            </p>
+            <h6 class="card-title text-end">Luca rosi</h6>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body">
+            <p class="card-text">
+              "Viaggiare con loro è stato facile e piacevole. Ho trovato un'offerta last minute e mi sono goduto una vacanza stupenda. Consigliatissimo!"
+            </p>
+            <h6 class="card-title text-end">Maria Rossi</h6>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body">
+            <p class="card-text">
+              "Il supporto clienti è fantastico. Mi hanno aiutato a pianificare il viaggio perfetto per me e la mia famiglia. Non vedo l'ora di partire di nuovo!"
+            </p>
+            <h6 class="card-title text-end">Giovanni rossi</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+  
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <!-- Logo e Informazioni -->
+        <div class="col-md-4 mb-3">
+          <h5 class="mb-3">Travel to Live</h5>
+          <p>Esplora il mondo con noi. Viaggiare è vivere.</p>
+          <p>&copy; 2023 Travel to Live. All rights reserved.</p>
+        </div>
+        <!-- Link Rapidi -->
+        <div class="col-md-4 mb-3">
+          <h5 class="mb-3">Link Utili</h5>
+          <ul class="list-unstyled">
+            <li><a href="#destinations" class="text-white text-decoration-none">Destinazioni</a></li>
+            <li><a href="#packages" class="text-white text-decoration-none">Pacchetti</a></li>
+            <li><a href="#contact" class="text-white text-decoration-none">Contatti</a></li>
+            <li><a href="#about" class="text-white text-decoration-none">Chi Siamo</a></li>
+          </ul>
+        </div>
+        <!-- Contatti e Social Media -->
+        <div class="col-md-4 mb-3">
+          <h5 class="mb-3">Contatti</h5>
+          <p><i class="fas fa-envelope"></i> info@traveltolive.com</p>
+          <p><i class="fas fa-phone"></i> +39 333 333 333oo</p>
+          <button id="contactButton" class="btn btn-primary">Contattaci</button>
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Form Contatti -->
+  <div id="contactForm" class="mt-3">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button class="btn btn-success">Invia</button>
+  </div>
+
+
+  
+    <!-- JavaScript -->
+    <script>
+        // Funzione per collassare/riaprire una sezione
+        function toggleSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section.style.display === "none" || section.style.display === "") {
+            section.style.display = "block"; // Mostra la sezione
+        } else {
+            section.style.display = "none"; // Nascondi la sezione
+        }
+        }
+
+    // Funzione per mostrare il form di contatto <script>
+    // Seleziona il bottone e il form
+    const contactButton = document.getElementById('contactButton');
+    const contactForm = document.getElementById('contactForm');
+
+        // Aggiungi evento click al bottone
+        contactButton.addEventListener('click', () => {
+        // Mostra o nascondi il form al clic
+        if (contactForm.style.display === 'none' || contactForm.style.display === '') {
+            contactForm.style.display = 'block'; // Mostra il form
+        } else {
+            contactForm.style.display = 'none'; // Nascondi il form
+        }
+        });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+       
+</html>

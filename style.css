@@ -1,0 +1,179 @@
+/* ----------- Sezione Offerta della Settimana ----------------------------------------------------------------------------- */
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-title {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .card a.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card a.btn:hover {
+    background-color: #0056b3;
+  }
+  
+/* -----------la parte delle card summer ----------------------------------------------------------------------------- */
+
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  
+/* ----------- Sezione Offerta del Giorno  ----------------------------------------------------------------------------- */
+
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+/* ----------- last miute  ----------------------------------------------------------------------------- */
+
+  .card {
+    border: none;
+    overflow: hidden; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+  }
+
+/* ----------- sezione testimonial  ----------------------------------------------------------------------------- */
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-text {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  
+/* ----------- footer  ----------------------------------------------------------------------------- */
+
+  footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #343a40;
+    color: white;
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #ffffff;
+  }
+  
+  footer a:hover {
+    color: #ffc107;
+  }
+  
+  footer .fab, footer .fas {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer .fab:hover, footer .fas:hover {
+    color: #ffc107;
+  }
+
+/* -----------  visualizzazione mobile  ----------------------------------------------------------------------------- */
+
+  @media (max-width: 767px) {
+    .offerta-del-giorno {
+      display: none;
+    }
+  }
+/* -----------  form ----------------------------------------------------------------------------- */
+
+  #contactForm {
+    display: none;
+  }
